@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    tools:context=".Fragments.FragmentPermisos">
+
+
+
+    <ImageView
+        android:id="@+id/fragment_agregar_permisos_img_logo"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:src="@mipmap/logo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        />
+
+    <TextView
+        android:id="@+id/fragment_agregar_permisos_txt_titulo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/esta_aplicaci_n_necesita_hacer_uso_de_los_siguientes_permisos"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_agregar_permisos_img_logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+        <TextView
+            android:id="@+id/fragment_agregar_contactos_txt_galeria_y_camara"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/_1_galeria_y_camara_para_personalizar_tu_avatar"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_agregar_permisos_txt_titulo"
+            app:layout_constraintEnd_toStartOf="@id/fragment_agregar_permisos_img_camara"/>
+
+        <ImageView
+            android:id="@+id/fragment_agregar_permisos_img_camara"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentEnd="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/fragment_agregar_permisos_txt_titulo"
+            android:src="@drawable/ic_camera_permisos"/>
+
+
+        <TextView
+            android:id="@+id/fragment_agregar_permisos_txt_llamadas_mensajes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_alignParentStart="true"
+            android:text="2.-Llamadas y mensajes: para usasre el envio de  notificaciones"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_agregar_contactos_txt_galeria_y_camara"
+            app:layout_constraintEnd_toStartOf="@id/fragment_agregar_permisos_llamadas_mensajes"/>
+
+        <ImageView
+            android:id="@+id/fragment_agregar_permisos_llamadas_mensajes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/ic_telefono_permisos"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_agregar_contactos_txt_galeria_y_camara"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="3.-Ubicación: para geolocalizar puntos de interes en el mapa"
+            android:textColor="@color/white"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/fragment_agregar_permisos_txt_llamadas_mensajes"
+            app:layout_constraintEnd_toStartOf="@id/fragment_agregar_permisos_img_ubicacion"
+           />
+
+        <ImageView
+            android:id="@+id/fragment_agregar_permisos_img_ubicacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_agregar_permisos_txt_llamadas_mensajes"
+            android:src="@drawable/ic_ubicacion_permisos"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finalizar"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/white"/>
+
+</android.support.constraint.ConstraintLayout>

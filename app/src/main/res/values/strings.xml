@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tutorial sismos mex</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="aplicacion_diseniada_para_tu_tranquilidad">Aplicacion diseñada para tu tranquilidad</string>
+    <string name="he_leido_y_acepto_las_condiciones_de_uso_y_av_so_de_privacidad">He leido y acepto las condiciones de uso y avíso de privacidad</string>
+    <string name="agregar_contactos">Agregar contactos</string>
+    <string name="podras_registrar_uno_o_mas_contactos_para_avisarles_que_te_encuentras_bien_en_caso_de_un_sismo">Podras registrar uno o mas contactos para avisarles que te encuentras bien en caso de un sismo</string>
+    <string name="activar_estoy_bien">Activar estoy bien</string>
+    <string name="alerta_en_modo_silencioso">Alerta en modo silencioso</string>
+    <string name="recibiras_alertas_a_n_cuando_tengas_tu_movil_en_modo_vibrador">Recibiras alertas aún cuando tengas tu movil en modo vibrador</string>
+    <string name="esta_aplicaci_n_necesita_hacer_uso_de_los_siguientes_permisos">Esta aplicación necesita hacer uso de los siguientes permisos:</string>
+    <string name="podras_notificar_a_tus_contactos_que_te_encuentras_en_buen_estado_presionando_tres_veces_el_bot_n_de_encendido_sin_necesidad_de_tener_la_aplicaci_n_abierta">Podras notificar a tus contactos que te encuentras en buen estado presionando tres veces el botón de encendido sin necesidad de tener la aplicación abierta</string>
+    <string name="_1_galeria_y_camara_para_personalizar_tu_avatar">1.-Galeria y camara: para personalizar tu avatar</string>
+</resources>
